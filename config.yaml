@@ -1,0 +1,104 @@
+baseURL: /
+title: Bigspring Hugo
+theme: bigspring-hugo-startup-theme
+paginate: '3'
+summaryLength: '15'
+disqusShortname: ''
+googleAnalytics: ''
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+params:
+  author: Themefisher
+  contact_form_action: '#'
+  description: This is meta description
+  logo: images/logo.png
+  logo_width: 200px
+  navigation_button:
+    enable: yes
+    label: Get Started
+    link: contact
+  plugins:
+    css:
+      - link: plugins/bootstrap/bootstrap.min.css
+      - link: plugins/themify-icons/themify-icons.css
+      - link: plugins/slick/slick.css
+    js:
+      - link: plugins/jQuery/jquery.min.js
+      - link: plugins/bootstrap/bootstrap.min.js
+      - link: plugins/slick/slick.min.js
+  preloader:
+    enable: no
+    preloader: ''
+  social:
+    - icon: ti-facebook
+      link: '#'
+      title: facebook
+    - icon: ti-twitter-alt
+      link: '#'
+      title: twitter
+    - icon: ti-skype
+      link: '#'
+      title: skype
+    - icon: ti-linkedin
+      link: '#'
+      title: linkedin
+menu:
+  footer_left:
+    - name: About Us
+      url: '#'
+    - name: Quick Start
+      url: '#'
+    - name: Pricing
+      url: pricing
+  footer_middle:
+    - name: Pricing
+      url: pricing
+    - name: Platform
+      url: '#'
+    - name: Features
+      url: '#'
+  footer_right:
+    - name: Privacy Policy
+      url: privacy-policy
+    - name: Terms & Conditions
+      url: terms-conditions
+    - name: FAQ
+      url: faq
+  main:
+    - name: Blog
+      url: blog
+      weight: 1
+    - name: Pricing
+      url: pricing
+      weight: 2
+    - name: Contact
+      url: contact
+      weight: 3
+    - name: FAQ
+      url: faq
+      weight: 4
+languages:
+  de:
+    contentDir: content/deutsch
+    copyright: Design von [Themefisher](https://themefisher.com/) Entwickelt von [Gethugothemes](https://gethugothemes.com/)
+    footer_content: Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique
+      eget amet, tempus eu at cttur.
+    footer_menu_left: Firma
+    footer_menu_middle: Produkte
+    footer_menu_right: Support
+    languageName: De
+    title: Bigspring Hugo
+    weight: 2
+  en:
+    contentDir: content/english
+    copyright: Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)
+    footer_content: Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique
+      eget amet, tempus eu at cttur.
+    footer_menu_left: Company
+    footer_menu_middle: Product
+    footer_menu_right: Support
+    languageName: En
+    title: Bigspring Hugo
+    weight: 1
